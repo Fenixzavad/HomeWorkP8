@@ -13,7 +13,7 @@ def add_lesson():
 def imput_mark():
     name = input("Введите Имя и Фамилию: ")
     less = input("Введите предмет: ")
-    mark = input("Введите Имя и Фамилию: ")
+    mark = input("Введите Оценку: ")
     return name, less, mark
 
 def get_name_and_mark():
